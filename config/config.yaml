@@ -1,0 +1,21 @@
+samples: config/samples.tsv
+genome:
+    index: /home/data/wd/victor/SnakeMake-RNA-seq/index/hsa
+    species: hsa
+
+fastqs:
+    pe: true # pair end
+    dir: raw
+qc_plot:
+    n_genes: 50
+    ellipses: true
+    ellipse_size: 0.8
+dea:
+    active: true
+    dea_vs:
+        - [hSETDB1_sg1,Control_sg2]
+        - [Control_sg2,hSETDB1_sg1]
+    logFC: 0.585
+    pvalue: 0.05
+
+warpper_mirror: https://jihulab.com/NshimaBio/sws/-/raw/v3.3.6/ 

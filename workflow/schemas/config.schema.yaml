@@ -1,0 +1,62 @@
+$schema: "http://json-schema.org/draft-04/schema#"
+
+description: snakemake configuration file
+
+type: object
+
+properties:
+  samples:
+    type: string
+  genome:
+    type: object
+    properties:
+      dir:
+          type: string
+      datatype:
+          type: string
+      species:
+          type: string
+      build:
+          type: string
+      release:
+          type: string
+      flavor:
+          type: string
+  fastqs:
+    type: object
+    properties:
+      pe:
+          type: boolean
+      dir:
+          type: string
+  qc_plot:
+    type: object
+    properties:
+      n_genes:
+          type: integer
+      ellipses:
+          type: boolean
+      ellipse_size:
+          type: number
+  dea:
+    type: object
+    properties:
+      active:
+          type: boolean
+      dea_vs:
+          type: array
+      logFC:
+          type: number
+      pvalue:
+          type: number
+
+  warpper_mirror:
+    type: string
+
+required:
+  - samples
+  - genome
+  - fastqs
+  - qc_plot
+  - warpper_mirror
+

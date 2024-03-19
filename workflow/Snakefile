@@ -1,0 +1,32 @@
+#=====================================================
+# common
+#=====================================================
+
+include: "rules/common.smk"
+
+#=====================================================
+# rule order
+#=====================================================
+
+# ruleorder: star_index > star_align
+
+#=====================================================
+# final outputs
+#=====================================================
+
+rule all:
+    input:
+        f"{OUTDIR}/Report/qc_plot.pdf",
+        expand("{o}/QC/{s}{u}_fastqc.html",o=OUTDIR,s=SAMPLES,u=UNITS),
+        f"{OUTDIR}/Report/align_multiqc.html",
+        expand("{o}/DEA/DEA_res_{c}.csv.gz",o=OUTDIR,c=get_contrast()) if config['compare'] else expand("{o}/Count/{s}_ReadsPerGene.tsv",o=OUTDIR,s=SAMPLES)
+
+#=====================================================
+# Modules
+#=====================================================
+
+include: "rules/trim.smk"
+include: "rules/align.smk"
+include: "rules/qc.smk"
+if config['compare']:
+    include: "rules/dea.smk"

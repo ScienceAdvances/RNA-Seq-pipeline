@@ -1,0 +1,18 @@
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - r-r.utils
+  - r-tibble
+  - r-dplyr
+  - r-stringr
+  - r-tidyr
+  - r-magrittr
+  - r-ggplot2
+  - r-ggdendro
+  - bioconductor-complexheatmap
+  - r-patchwork
+  - r-data.table
+  - r-factominer
+  - r-factoextra
