@@ -1,0 +1,10 @@
+
+  /// MultiQC 🔍 | v1.14
+
+|           multiqc | Search path : /home/victor/Project/RNA/results/qc
+|         searching | ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 6/6  
+|          samtools | Found 6 flagstat reports
+|           multiqc | Compressing plot data
+|           multiqc | Report      : report/align_multiqc.html
+|           multiqc | Data        : report/align_multiqc_data
+|           multiqc | MultiQC complete

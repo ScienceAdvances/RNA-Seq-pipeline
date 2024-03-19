@@ -1,0 +1,16 @@
+	STAR --runThreadN 16 --runMode genomeGenerate --genomeFastaFiles /home/victor/DataHub/Genomics/Homo_sapiens_GRCh38_109_genome.fa --sjdbGTFfile /home/victor/DataHub/Genomics/Homo_sapiens_GRCh38_109_annotation.gtf --outTmpDir /tmp/tmp0o0c602s/STARtmp --genomeDir /home/victor/DataHub/Genomics/Homo_sapiens_GRCh38_109_STAR
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+May 13 11:23:45 ..... started STAR run
+May 13 11:23:45 ... starting to generate Genome files
+May 13 11:25:00 ..... processing annotations GTF
+May 13 11:25:52 ... starting to sort Suffix Array. This may take a long time...
+May 13 11:26:53 ... sorting Suffix Array chunks and saving them to disk...
+May 13 12:07:35 ... loading chunks from disk, packing SA...
+May 13 12:09:45 ... finished generating suffix array
+May 13 12:09:45 ... generating Suffix Array index
+May 13 12:18:37 ... completed Suffix Array index
+May 13 12:18:39 ..... inserting junctions into the genome indices
+May 13 12:26:15 ... writing Genome to disk ...
+May 13 12:26:22 ... writing Suffix Array to disk ...
+May 13 12:27:10 ... writing SAindex to disk
+May 13 12:27:16 ..... finished successfully

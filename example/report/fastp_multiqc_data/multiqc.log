@@ -1,0 +1,211 @@
+[2023-05-12 12:29:52,368] multiqc                                            [DEBUG  ]  This is MultiQC v1.14
+[2023-05-12 12:29:52,368] multiqc                                            [DEBUG  ]  Command used: /home/victor/Project/RNA/.snakemake/conda/199ecc50115e4b52a207f4cd8e334be7_/bin/multiqc --force -o report -n fastp_multiqc.html report
+[2023-05-12 12:29:53,319] multiqc                                            [DEBUG  ]  Latest MultiQC version is v1.14
+[2023-05-12 12:29:53,347] multiqc                                            [DEBUG  ]  Working dir : /home/victor/Project/RNA
+[2023-05-12 12:29:53,348] multiqc                                            [DEBUG  ]  Template    : default
+[2023-05-12 12:29:53,348] multiqc                                            [DEBUG  ]  Running Python 3.11.3 | packaged by conda-forge | (main, Apr  6 2023, 08:57:19) [GCC 11.3.0]
+[2023-05-12 12:29:53,349] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, ccs, ngsderive, purple, conpair, lima, peddy, somalier, methylQA, mosdepth, phantompeakqualtools, qualimap, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, sambamba, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featureCounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, biobambam2, jcvi, mtnucratio, picard, vep, sentieon, prokka, qc3C, nanostat, samblaster, samtools, sexdeterrmine, eigenstratdatabasetools, bamtools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umitools, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, cellranger, snpsplit, odgi, pangolin, nextclade, humid, kat, leehom, adapterRemoval, bbduk, clipandmerge, cutadapt, flexbar, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap
+[2023-05-12 12:29:53,349] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpelcscctt
+[2023-05-12 12:29:53,600] multiqc                                            [INFO   ]  Search path : /home/victor/Project/RNA/report
+[2023-05-12 12:29:53,646] multiqc                                            [DEBUG  ]  Summary of files that were skipped by the search: []
+[2023-05-12 12:29:55,905] multiqc.plots.bargraph                             [DEBUG  ]  Using matplotlib version 3.7.1
+[2023-05-12 12:29:55,908] multiqc.plots.linegraph                            [DEBUG  ]  Using matplotlib version 3.7.1
+[2023-05-12 12:29:55,911] multiqc                                            [DEBUG  ]  No samples found: custom_content
+[2023-05-12 12:29:55,923] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001952_L1.fastp.json'
+[2023-05-12 12:29:55,923] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,924] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001952_L1.fastp.json
+[2023-05-12 12:29:55,927] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001952_L4.fastp.json'
+[2023-05-12 12:29:55,927] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,927] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,927] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,927] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,928] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,928] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,928] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001952_L4.fastp.json
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001954_L4.fastp.json'
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,931] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,932] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,932] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001954_L4.fastp.json
+[2023-05-12 12:29:55,934] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001950_L4.fastp.json'
+[2023-05-12 12:29:55,934] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,935] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001950_L4.fastp.json
+[2023-05-12 12:29:55,938] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001953_L2.fastp.json'
+[2023-05-12 12:29:55,938] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,938] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,938] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,938] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,939] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,939] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,939] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001953_L2.fastp.json
+[2023-05-12 12:29:55,941] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001950_L2.fastp.json'
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,942] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001950_L2.fastp.json
+[2023-05-12 12:29:55,945] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001952_L3.fastp.json'
+[2023-05-12 12:29:55,945] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,945] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,945] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,946] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,946] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,946] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,946] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001952_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001950_L3.fastp.json'
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,949] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,950] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001950_L3.fastp.json
+[2023-05-12 12:29:55,952] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001951_L2.fastp.json'
+[2023-05-12 12:29:55,952] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,952] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,952] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,953] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,953] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,953] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,953] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001951_L2.fastp.json
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001953_L1.fastp.json'
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,956] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,957] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,957] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001953_L1.fastp.json
+[2023-05-12 12:29:55,959] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001955_L4.fastp.json'
+[2023-05-12 12:29:55,959] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,959] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,960] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,960] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,960] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,960] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,960] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001955_L4.fastp.json
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001954_L3.fastp.json'
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,963] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,964] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,964] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001954_L3.fastp.json
+[2023-05-12 12:29:55,966] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001951_L3.fastp.json'
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,967] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001951_L3.fastp.json
+[2023-05-12 12:29:55,970] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001955_L3.fastp.json'
+[2023-05-12 12:29:55,970] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,970] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,970] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,970] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,971] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,971] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,971] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001955_L3.fastp.json
+[2023-05-12 12:29:55,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001952_L2.fastp.json'
+[2023-05-12 12:29:55,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,974] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,975] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001952_L2.fastp.json
+[2023-05-12 12:29:55,977] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001951_L4.fastp.json'
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,978] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001951_L4.fastp.json
+[2023-05-12 12:29:55,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001954_L2.fastp.json'
+[2023-05-12 12:29:55,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,981] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,982] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001954_L2.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001954_L1.fastp.json'
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,985] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,986] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001954_L1.fastp.json
+[2023-05-12 12:29:55,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001955_L2.fastp.json'
+[2023-05-12 12:29:55,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,988] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,989] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001955_L2.fastp.json
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001953_L4.fastp.json'
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,992] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,993] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,993] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001953_L4.fastp.json
+[2023-05-12 12:29:55,995] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001953_L3.fastp.json'
+[2023-05-12 12:29:55,995] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,996] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001953_L3.fastp.json
+[2023-05-12 12:29:55,999] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001955_L1.fastp.json'
+[2023-05-12 12:29:55,999] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001955_L1.fastp.json
+[2023-05-12 12:29:55,999] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:55,999] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:55,999] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:56,000] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:56,000] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:56,000] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001955_L1.fastp.json
+[2023-05-12 12:29:56,002] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001951_L1.fastp.json'
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,003] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001951_L1.fastp.json
+[2023-05-12 12:29:56,006] multiqc.modules.fastp.fastp                        [DEBUG  ]  fastp JSON did not have a 'adapter_cutting' key, skipping: 'GSM6001950_L1.fastp.json'
+[2023-05-12 12:29:56,006] multiqc.modules.fastp.fastp                        [DEBUG  ]  Could not calculate 'pct_adapter' (KeyError): GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,006] multiqc.modules.fastp.fastp                        [DEBUG  ]  No duplication rate plot data: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,006] multiqc.modules.fastp.fastp                        [DEBUG  ]  No insert size plot data: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,006] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_before_filtering not found: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,007] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_before_filtering not found: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,007] multiqc.modules.fastp.fastp                        [DEBUG  ]  Read quality read2_after_filtering not found: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,007] multiqc.modules.fastp.fastp                        [DEBUG  ]  Content curve data read2_after_filtering not found: GSM6001950_L1.fastp.json
+[2023-05-12 12:29:56,007] multiqc.modules.fastp.fastp                        [INFO   ]  Found 24 reports
+[2023-05-12 12:29:56,130] multiqc                                            [INFO   ]  Compressing plot data
+[2023-05-12 12:29:57,058] multiqc                                            [INFO   ]  Report      : report/fastp_multiqc.html
+[2023-05-12 12:29:57,059] multiqc                                            [INFO   ]  Data        : report/fastp_multiqc_data
+[2023-05-12 12:29:57,059] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpelcscctt/multiqc_data' to 'report/fastp_multiqc_data'
+[2023-05-12 12:29:57,647] multiqc                                            [INFO   ]  MultiQC complete

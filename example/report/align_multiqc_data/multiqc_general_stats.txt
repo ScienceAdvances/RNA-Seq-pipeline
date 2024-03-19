@@ -1,0 +1,7 @@
+Sample	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed	Samtools_mqc-generalstats-samtools-mapped_passed_pct
+GSM6001950	40066498	40066498	100.0
+GSM6001951	46086607	46086607	100.0
+GSM6001952	45341158	45341158	100.0
+GSM6001953	41056383	41056383	100.0
+GSM6001954	42571575	42571575	100.0
+GSM6001955	47718111	47718111	100.0

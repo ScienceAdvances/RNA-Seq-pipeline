@@ -1,0 +1,59 @@
+.
+├── config
+│   ├── config.yaml
+│   ├── README.md
+│   └── samples.csv
+├── raw
+│   ├── GSM6001950_L1.fastq.gz
+│   ├── GSM6001950_L2.fastq.gz
+│   ├── GSM6001950_L3.fastq.gz
+│   ├── GSM6001950_L4.fastq.gz
+│   ├── GSM6001951_L1.fastq.gz
+│   ├── GSM6001951_L2.fastq.gz
+│   ├── GSM6001951_L3.fastq.gz
+│   ├── GSM6001951_L4.fastq.gz
+│   ├── GSM6001952_L1.fastq.gz
+│   ├── GSM6001952_L2.fastq.gz
+│   ├── GSM6001952_L3.fastq.gz
+│   ├── GSM6001952_L4.fastq.gz
+│   ├── GSM6001953_L1.fastq.gz
+│   ├── GSM6001953_L2.fastq.gz
+│   ├── GSM6001953_L3.fastq.gz
+│   ├── GSM6001953_L4.fastq.gz
+│   ├── GSM6001954_L1.fastq.gz
+│   ├── GSM6001954_L2.fastq.gz
+│   ├── GSM6001954_L3.fastq.gz
+│   ├── GSM6001954_L4.fastq.gz
+│   ├── GSM6001955_L1.fastq.gz
+│   ├── GSM6001955_L2.fastq.gz
+│   ├── GSM6001955_L3.fastq.gz
+│   └── GSM6001955_L4.fastq.gz
+└── workflow
+    ├── envs
+    │   ├── gene.yaml
+    │   └── qc_plot.yaml
+    ├── report
+    │   ├── align.rst
+    │   ├── deseq.rst
+    │   ├── normalise.rst
+    │   ├── qc_plot.rst
+    │   └── workflow.rst
+    ├── rules
+    │   ├── align.smk
+    │   ├── common.smk
+    │   ├── deseq.smk
+    │   ├── qc.smk
+    │   ├── ref.smk
+    │   └── trim.smk
+    ├── schemas
+    │   ├── config.schema.yaml
+    │   └── samples.schema.yaml
+    ├── scripts
+    │   ├── common.py
+    │   ├── deseq.py
+    │   ├── gene_info.py
+    │   ├── gtftools.py
+    │   ├── merge_count.py
+    │   ├── normalise.py
+    │   ├── qc_plot.R
+    └── Snakefile

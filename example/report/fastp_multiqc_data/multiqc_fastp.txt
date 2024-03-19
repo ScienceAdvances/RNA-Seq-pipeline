@@ -1,0 +1,25 @@
+Sample	command
+GSM6001950_L1	fastp --thread 8 --in1 raw/GSM6001950_L1.fastq.gz --out1 results/trimmed/GSM6001950_L1.fastq.gz --json report/GSM6001950_L1.fastp.json --html report/GSM6001950_L1.fastp.html 
+GSM6001950_L2	fastp --thread 8 --in1 raw/GSM6001950_L2.fastq.gz --out1 results/trimmed/GSM6001950_L2.fastq.gz --json report/GSM6001950_L2.fastp.json --html report/GSM6001950_L2.fastp.html 
+GSM6001950_L3	fastp --thread 8 --in1 raw/GSM6001950_L3.fastq.gz --out1 results/trimmed/GSM6001950_L3.fastq.gz --json report/GSM6001950_L3.fastp.json --html report/GSM6001950_L3.fastp.html 
+GSM6001950_L4	fastp --thread 8 --in1 raw/GSM6001950_L4.fastq.gz --out1 results/trimmed/GSM6001950_L4.fastq.gz --json report/GSM6001950_L4.fastp.json --html report/GSM6001950_L4.fastp.html 
+GSM6001951_L1	fastp --thread 8 --in1 raw/GSM6001951_L1.fastq.gz --out1 results/trimmed/GSM6001951_L1.fastq.gz --json report/GSM6001951_L1.fastp.json --html report/GSM6001951_L1.fastp.html 
+GSM6001951_L2	fastp --thread 8 --in1 raw/GSM6001951_L2.fastq.gz --out1 results/trimmed/GSM6001951_L2.fastq.gz --json report/GSM6001951_L2.fastp.json --html report/GSM6001951_L2.fastp.html 
+GSM6001951_L3	fastp --thread 8 --in1 raw/GSM6001951_L3.fastq.gz --out1 results/trimmed/GSM6001951_L3.fastq.gz --json report/GSM6001951_L3.fastp.json --html report/GSM6001951_L3.fastp.html 
+GSM6001951_L4	fastp --thread 8 --in1 raw/GSM6001951_L4.fastq.gz --out1 results/trimmed/GSM6001951_L4.fastq.gz --json report/GSM6001951_L4.fastp.json --html report/GSM6001951_L4.fastp.html 
+GSM6001952_L1	fastp --thread 8 --in1 raw/GSM6001952_L1.fastq.gz --out1 results/trimmed/GSM6001952_L1.fastq.gz --json report/GSM6001952_L1.fastp.json --html report/GSM6001952_L1.fastp.html 
+GSM6001952_L2	fastp --thread 8 --in1 raw/GSM6001952_L2.fastq.gz --out1 results/trimmed/GSM6001952_L2.fastq.gz --json report/GSM6001952_L2.fastp.json --html report/GSM6001952_L2.fastp.html 
+GSM6001952_L3	fastp --thread 8 --in1 raw/GSM6001952_L3.fastq.gz --out1 results/trimmed/GSM6001952_L3.fastq.gz --json report/GSM6001952_L3.fastp.json --html report/GSM6001952_L3.fastp.html 
+GSM6001952_L4	fastp --thread 8 --in1 raw/GSM6001952_L4.fastq.gz --out1 results/trimmed/GSM6001952_L4.fastq.gz --json report/GSM6001952_L4.fastp.json --html report/GSM6001952_L4.fastp.html 
+GSM6001953_L1	fastp --thread 8 --in1 raw/GSM6001953_L1.fastq.gz --out1 results/trimmed/GSM6001953_L1.fastq.gz --json report/GSM6001953_L1.fastp.json --html report/GSM6001953_L1.fastp.html 
+GSM6001953_L2	fastp --thread 8 --in1 raw/GSM6001953_L2.fastq.gz --out1 results/trimmed/GSM6001953_L2.fastq.gz --json report/GSM6001953_L2.fastp.json --html report/GSM6001953_L2.fastp.html 
+GSM6001953_L3	fastp --thread 8 --in1 raw/GSM6001953_L3.fastq.gz --out1 results/trimmed/GSM6001953_L3.fastq.gz --json report/GSM6001953_L3.fastp.json --html report/GSM6001953_L3.fastp.html 
+GSM6001953_L4	fastp --thread 8 --in1 raw/GSM6001953_L4.fastq.gz --out1 results/trimmed/GSM6001953_L4.fastq.gz --json report/GSM6001953_L4.fastp.json --html report/GSM6001953_L4.fastp.html 
+GSM6001954_L1	fastp --thread 8 --in1 raw/GSM6001954_L1.fastq.gz --out1 results/trimmed/GSM6001954_L1.fastq.gz --json report/GSM6001954_L1.fastp.json --html report/GSM6001954_L1.fastp.html 
+GSM6001954_L2	fastp --thread 8 --in1 raw/GSM6001954_L2.fastq.gz --out1 results/trimmed/GSM6001954_L2.fastq.gz --json report/GSM6001954_L2.fastp.json --html report/GSM6001954_L2.fastp.html 
+GSM6001954_L3	fastp --thread 8 --in1 raw/GSM6001954_L3.fastq.gz --out1 results/trimmed/GSM6001954_L3.fastq.gz --json report/GSM6001954_L3.fastp.json --html report/GSM6001954_L3.fastp.html 
+GSM6001954_L4	fastp --thread 8 --in1 raw/GSM6001954_L4.fastq.gz --out1 results/trimmed/GSM6001954_L4.fastq.gz --json report/GSM6001954_L4.fastp.json --html report/GSM6001954_L4.fastp.html 
+GSM6001955_L1	fastp --thread 8 --in1 raw/GSM6001955_L1.fastq.gz --out1 results/trimmed/GSM6001955_L1.fastq.gz --json report/GSM6001955_L1.fastp.json --html report/GSM6001955_L1.fastp.html 
+GSM6001955_L2	fastp --thread 8 --in1 raw/GSM6001955_L2.fastq.gz --out1 results/trimmed/GSM6001955_L2.fastq.gz --json report/GSM6001955_L2.fastp.json --html report/GSM6001955_L2.fastp.html 
+GSM6001955_L3	fastp --thread 8 --in1 raw/GSM6001955_L3.fastq.gz --out1 results/trimmed/GSM6001955_L3.fastq.gz --json report/GSM6001955_L3.fastp.json --html report/GSM6001955_L3.fastp.html 
+GSM6001955_L4	fastp --thread 8 --in1 raw/GSM6001955_L4.fastq.gz --out1 results/trimmed/GSM6001955_L4.fastq.gz --json report/GSM6001955_L4.fastp.json --html report/GSM6001955_L4.fastp.html 

@@ -1,0 +1,152 @@
+.
+├── config
+│   ├── config.yaml
+│   ├── README.md
+│   └── samples.tsv
+├── logs
+│   ├── align_multiqc.log
+│   ├── fastp
+│   │   ├── fastp_multiqc.log
+│   │   ├── GSM6001950_L1.log
+│   │   ├── GSM6001950_L2.log
+│   │   ├── GSM6001950_L3.log
+│   │   ├── GSM6001950_L4.log
+│   │   ├── GSM6001951_L1.log
+│   │   ├── GSM6001951_L2.log
+│   │   ├── GSM6001951_L3.log
+│   │   ├── GSM6001951_L4.log
+│   │   ├── GSM6001952_L1.log
+│   │   ├── GSM6001952_L2.log
+│   │   ├── GSM6001952_L3.log
+│   │   ├── GSM6001952_L4.log
+│   │   ├── GSM6001953_L1.log
+│   │   ├── GSM6001953_L2.log
+│   │   ├── GSM6001953_L3.log
+│   │   ├── GSM6001953_L4.log
+│   │   ├── GSM6001954_L1.log
+│   │   ├── GSM6001954_L2.log
+│   │   ├── GSM6001954_L3.log
+│   │   ├── GSM6001954_L4.log
+│   │   ├── GSM6001955_L1.log
+│   │   ├── GSM6001955_L2.log
+│   │   ├── GSM6001955_L3.log
+│   │   └── GSM6001955_L4.log
+│   ├── genome
+│   │   ├── genome_faidx.log
+│   │   ├── get_annotation.log
+│   │   ├── get_genome.log
+│   │   └── star_index.log
+│   ├── samtools_flagstat
+│   │   ├── GSM6001950.log
+│   │   ├── GSM6001951.log
+│   │   ├── GSM6001952.log
+│   │   ├── GSM6001953.log
+│   │   ├── GSM6001954.log
+│   │   └── GSM6001955.log
+│   └── star
+│       ├── GSM6001950.log
+│       ├── GSM6001951.log
+│       ├── GSM6001952.log
+│       ├── GSM6001953.log
+│       ├── GSM6001954.log
+│       └── GSM6001955.log
+├── raw
+│   ├── GSM6001950_L1.fastq.gz
+│   ├── GSM6001950_L2.fastq.gz
+│   ├── GSM6001950_L3.fastq.gz
+│   ├── GSM6001950_L4.fastq.gz
+│   ├── GSM6001951_L1.fastq.gz
+│   ├── GSM6001951_L2.fastq.gz
+│   ├── GSM6001951_L3.fastq.gz
+│   ├── GSM6001951_L4.fastq.gz
+│   ├── GSM6001952_L1.fastq.gz
+│   ├── GSM6001952_L2.fastq.gz
+│   ├── GSM6001952_L3.fastq.gz
+│   ├── GSM6001952_L4.fastq.gz
+│   ├── GSM6001953_L1.fastq.gz
+│   ├── GSM6001953_L2.fastq.gz
+│   ├── GSM6001953_L3.fastq.gz
+│   ├── GSM6001953_L4.fastq.gz
+│   ├── GSM6001954_L1.fastq.gz
+│   ├── GSM6001954_L2.fastq.gz
+│   ├── GSM6001954_L3.fastq.gz
+│   ├── GSM6001954_L4.fastq.gz
+│   ├── GSM6001955_L1.fastq.gz
+│   ├── GSM6001955_L2.fastq.gz
+│   ├── GSM6001955_L3.fastq.gz
+│   └── GSM6001955_L4.fastq.gz
+├── report
+│   ├── align_multiqc_data
+│   │   ├── multiqc_citations.txt
+│   │   ├── multiqc_data.json
+│   │   ├── multiqc_general_stats.txt
+│   │   ├── multiqc.log
+│   │   ├── multiqc_samtools_flagstat.txt
+│   │   └── multiqc_sources.txt
+│   ├── align_multiqc.html
+│   ├── fastp_multiqc_data
+│   │   ├── multiqc_citations.txt
+│   │   ├── multiqc_data.json
+│   │   ├── multiqc_fastp.txt
+│   │   ├── multiqc_general_stats.txt
+│   │   ├── multiqc.log
+│   │   └── multiqc_sources.txt
+│   ├── fastp_multiqc.html
+│   └── qc_plot.pdf
+├── results
+│   ├── DEA
+│   │   ├── DEA_res_Control_sg2_VS_hSETDB1_sg1.csv.gz
+│   │   ├── DEA_res_hSETDB1_sg1_VS_Control_sg2.csv.gz
+│   │   ├── MA_plot_Control_sg2_VS_hSETDB1_sg1.pdf
+│   │   ├── MA_plot_hSETDB1_sg1_VS_Control_sg2.pdf
+│   │   ├── star_deseq_norm_count.csv.gz
+│   │   ├── Volcano_plot_Control_sg2_VS_hSETDB1_sg1.pdf
+│   │   └── Volcano_plot_hSETDB1_sg1_VS_Control_sg2.pdf
+│   └── star
+│       ├── GSM6001950_ReadsPerGene.tsv
+│       ├── GSM6001950_sortedByCoord.bam
+│       ├── GSM6001950_splice_junctions.tsv
+│       ├── GSM6001951_ReadsPerGene.tsv
+│       ├── GSM6001951_sortedByCoord.bam
+│       ├── GSM6001951_splice_junctions.tsv
+│       ├── GSM6001952_ReadsPerGene.tsv
+│       ├── GSM6001952_sortedByCoord.bam
+│       ├── GSM6001952_splice_junctions.tsv
+│       ├── GSM6001953_ReadsPerGene.tsv
+│       ├── GSM6001953_sortedByCoord.bam
+│       ├── GSM6001953_splice_junctions.tsv
+│       ├── GSM6001954_ReadsPerGene.tsv
+│       ├── GSM6001954_sortedByCoord.bam
+│       ├── GSM6001954_splice_junctions.tsv
+│       ├── GSM6001955_ReadsPerGene.tsv
+│       ├── GSM6001955_sortedByCoord.bam
+│       ├── GSM6001955_splice_junctions.tsv
+│       └── star.csv.gz
+└── workflow
+    ├── envs
+    │   ├── gene.yaml
+    │   └── qc_plot.yaml
+    ├── report
+    │   ├── align.rst
+    │   ├── dea.rst
+    │   ├── normalise.rst
+    │   ├── qc_plot.rst
+    │   └── workflow.rst
+    ├── rules
+    │   ├── align.smk
+    │   ├── common.smk
+    │   ├── dea.smk
+    │   ├── qc.smk
+    │   ├── ref.smk
+    │   └── trim.smk
+    ├── schemas
+    │   ├── config.schema.yaml
+    │   └── samples.schema.yaml
+    ├── scripts
+    │   ├── dea.py
+    │   ├── gene_info.py
+    │   ├── gtftools.py
+    │   ├── merge_count.py
+    │   ├── normalise.py
+    │   └── qc_plot.R
+    └── Snakefile

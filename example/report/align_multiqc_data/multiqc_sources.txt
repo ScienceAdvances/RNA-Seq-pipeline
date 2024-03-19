@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+Samtools	flagstat	GSM6001954	/home/victor/Project/RNA/results/qc/GSM6001954.bam.flagstat
+Samtools	flagstat	GSM6001951	/home/victor/Project/RNA/results/qc/GSM6001951.bam.flagstat
+Samtools	flagstat	GSM6001955	/home/victor/Project/RNA/results/qc/GSM6001955.bam.flagstat
+Samtools	flagstat	GSM6001953	/home/victor/Project/RNA/results/qc/GSM6001953.bam.flagstat
+Samtools	flagstat	GSM6001950	/home/victor/Project/RNA/results/qc/GSM6001950.bam.flagstat
+Samtools	flagstat	GSM6001952	/home/victor/Project/RNA/results/qc/GSM6001952.bam.flagstat

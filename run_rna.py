@@ -14,17 +14,17 @@ def main():
         default="hsa",
         required=True,
     )
-    parse.add_argument("-p", "--is_pair_end", help="out_dir",default=True, choices=[True, False], type=bool, required=True)
-    parse.add_argument("-m", "--samples", help="sample.tsv file", type=str, required=True)
+    parse.add_argument("-p", "--is_pair_end", help="out dir path",default=True, choices=[True, False], type=bool, required=True)
+    parse.add_argument("-m", "--samples", help="sample.tsv file path", type=str, required=True)
     parse.add_argument("-o", "--outdir", help="out_dir", type=str, required=True)
-    parse.add_argument("-c", "--compare", help="compare.tsv file", type=str, required=False)
-    parse.add_argument("-v", "--pvalue", help="pvalue", type=float, default=0.05, required=False)
-    parse.add_argument("-u", "--use_adjust_p", help="use_adjust_p", type=bool, default=False, required=False)
-    parse.add_argument("-l", "--lfc", help="lfc", type=float, default=0.585, required=False)
+    parse.add_argument("-c", "--compare", help="compare.tsv file path", type=str, required=False)
+    parse.add_argument("-v", "--pvalue", help="pvalue cutoff", type=float, default=0.05, required=False)
+    parse.add_argument("-u", "--use_adjust_p", help="use adjust pvalue or not", type=bool, default=False, required=False)
+    parse.add_argument("-l", "--lfc", help="log2FoldChange cutoff", type=float, default=0.585, required=False)
 
-    parse.add_argument("-n", "--n_jobs", help="n cpu", type=int, default=16, required=False)
-    parse.add_argument("-r", "--rerun_incomplete", help="sample.tsv file",action="store_true", required=False)
-    parse.add_argument("-d", "--dry_run", help="dry_run",action="store_true", required=False)
+    parse.add_argument("-n", "--n_jobs", help="no. of cpu to use", type=int, default=16, required=False)
+    parse.add_argument("-r", "--rerun_incomplete", help="rerun incomplete pipline",action="store_true", required=False)
+    parse.add_argument("-d", "--dry_run", help="fake run",action="store_true", required=False)
 
     args = parse.parse_args()
     n_jobs = args.n_jobs
